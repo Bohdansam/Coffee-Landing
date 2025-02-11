@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cofee</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+</head>
+<body>
+   <div class="first">
+    <header>
+        <div class="inner_header">
+            <div class="header_logo">
+                <a class="menu_button" onclick="showSidebar()"><img src="image_list/List.png"></a>
+               <img class="logo" src="image_list/header_logo.png"> 
+            </div>
+
+            <div class="header_sidebar">
+                <a onclick="hideSidebar()"><img src="image_list/close.svg"></a>
+                <a href="#"><span>Home</span></a>
+                <a href="#">About Us</a>
+                <a href="#">Our Menu</a>
+                <a href="#">Contact Us</a>
+            </div>
+
+            <div class="header_navigation">
+                <a class="hideOnMobile" href="#"><span>Home</span></a>
+                <a class="hideOnMobile" href="#">About Us</a>
+                <a class="hideOnMobile" href="#">Our Menu</a>
+                <a class="hideOnMobile" href="#">Contact Us</a>
+            </div>
+
+            <div class="header_buttons">
+                <img src="image_list/btn_1.png">
+                <img src="image_list/btn_2.png">
+            </div>
+        </div>
+
+        <script>
+            function showSidebar(){
+                const sidebar = document.querySelector('.header_sidebar')
+                sidebar.style.display = 'flex'
+            }
+
+            function hideSidebar(){
+                const sidebar = document.querySelector('.header_sidebar')
+                sidebar.style.display = 'none'
+            }
+        </script>
+    </header>
+
+    <div class="text_first">
+        <h1>Relax & Enjoy Your Coffee</h1>
+    </div>
+
+   </div> 
+
+   <div class="second">
+    <div class="preview">
+        <div class="preview_text">
+            <h1>About Us</h1>
+            <p>Our coffee bar uses only Ethiopian coffee. All commercially
+                <br>produced coffee originates from Ethiopia. We love Ethiopia
+                <br>for providing the world with coffee to grow, and we continue to 
+                <br>love the flavor of that country’s coffee. The fruity acidity of
+                <br>this single origin coffee is balanced by its sweet honey notes,
+                <br>creating soft, light notes with a light character.</p>
+
+            <button>Learn More</button>
+        </div>
+
+        <div class="preview_img">
+           <img src="image_list/preview_img.svg"> 
+        </div>
+    </div>
+   </div>
+
+   <div class="third">
+     <div class="features">
+        <h1>Features</h1>
+     </div>  
+
+     <div class="features_cards">
+        <div class="features_card1">
+            <img src="image_list/Coffee.png">
+            <h1>High Quality</h1>
+            <p>Enjoy an unrivaled coffee taste sensation with our selected coffee beans, carefully roasted to create a fresh cup of coffee that captivates your taste buds.</p>
+        </div>
+
+        <div class="features_card2">
+            <img src="image_list/WifiHigh.png">
+            <h1>Fast Wi-Fi and<br>Work Area</h1>
+            <p>Combine productivity with the pleasure of coffee. Enjoy a super-fast Wi-Fi connection and a comfortable workspace, where creative ideas bloom while sipping your favorite coffee.</p>
+        </div>
+
+        <div class="features_card3">
+            <img src="image_list/ChalkboardTeacher.png">
+            <h1>Comfortable and<br>Friendly Room</h1>
+            <p>Find the perfect place to gather, work or relax with friends in a warm and friendly atmosphere. Our spaces are designed to create a pleasant experience.</p>
+        </div>
+
+        <div class="features_card4">
+            <img src="image_list/ClipboardText.png">
+            <h1>Creative and<br>Innovative Menu</h1>
+            <p>There is always something new to try on every visit. From specialty coffees to delicious snacks, our menu is designed to satisfy a variety of tastes.</p>
+        </div>
+     </div>
+   </div>
+
+   <div class="four">
+    <div class="our_menu">
+        <h1>Our Menu</h1>
+    </div>
+
+    <div class="our_menu_cards">
+        <div class="our_menu_card_1">
+            <img src="image_list/Rectangle 4.png">
+            <div class="our_menu_top1">
+                <h1>Americano Coffee</h1>
+                <h2><img src="image_list/Star.png"> 5.9</h2>
+                <p>Lorem ipsum dolor sit amet consectetur.<br>
+                    Fermentum dolor nibh lectus aenean eu sit<br>
+                    ut. Eget tortor nullam eros pretium<br>
+                    tincidun tipsum at.
+                </p>
+            </div>
+            <div class="our_menu_bottom1">
+                <h1>$ 13.6</h1>
+                <button><img src="image_list/ShoppingCartSimple.png"> Add to Cart</button>
+            </div>
+        </div>
+
+        <div class="our_menu_card_2">
+            <img src="image_list/Rectangle 6.png">
+            <div class="our_menu_top2">
+                <h1>Espresso Coffee </h1>
+                <h2><img src="image_list/Star.png"> 5.9</h2>
+                <p>Lorem ipsum dolor sit amet consectetur.<br>
+                    Fermentum dolor nibh lectus aenean eu sit<br>
+                    ut. Eget tortor nullam eros pretium<br>
+                    tincidun tipsum at.
+                </p>
+            </div>
+            <div class="our_menu_bottom2">
+                <h1>$ 18.1</h1>
+                <button><img src="image_list/ShoppingCartSimple.png"> Add to Cart</button>
+            </div>
+        </div>
+
+        <div class="our_menu_card_3">
+            <img src="image_list/Rectangle 8.png">
+            <div class="our_menu_top3">
+                <h1>Latte Coffee</h1>
+                <h2><img src="image_list/Star.png"> 5.9</h2>
+                <p>Lorem ipsum dolor sit amet consectetur.<br>
+                    Fermentum dolor nibh lectus aenean eu sit<br>
+                    ut. Eget tortor nullam eros pretium<br>
+                    tincidun tipsum at.
+                </p>
+            </div>
+            <div class="our_menu_bottom3">
+                <h1>$ 15.5</h1>
+                <button><img src="image_list/ShoppingCartSimple.png"> Add to Cart</button>
+            </div>
+        </div>
+    </div>
+   </div>
+   
+</body>
+</html>
